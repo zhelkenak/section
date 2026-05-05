@@ -1,0 +1,39 @@
+a:link { 
+color: #33ccff; 
+} 
+a:visited { 
+color: #cecece; 
+} 
+a:hover { 
+color: #336666; }
+a:active { 
+color: #339999; 
+}
+ul li { 
+  list-style-type: upper-roman; 
+  list-style-image: url(one.png); 
+  padding-left: 10px; 
+}
+ul { 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+} 
+
+/* Стилизуем ссылки внутри пунктов списка (делаем их кнопками) */
+li a { 
+    color: #fff; 
+    text-decoration: none; 
+    padding: 4px 7px; 
+    width: 120px; 
+    background: #0076ba; 
+    display: block; 
+    border: 1px solid #fff; 
+    font-weight: bold; 
+    text-align: center; /* Чтобы текст был по центру кнопки */
+} 
+
+/* Эффект при наведении курсора */
+li a:hover { 
+    background: #d36800; 
+}
